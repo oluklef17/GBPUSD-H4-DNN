@@ -1,0 +1,16 @@
+Flask
+numpy
+scipy
+jupyter
+matplotlib
+Pillow
+scikit-learn
+pandas
+pandas-datareader
+pandas-gbq
+pandas-profiling
+pandocfilters
+tensorflow
+prettytensor
+requests
+requests-oauthlib
