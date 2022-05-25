@@ -101,10 +101,3 @@ def predict(Prediction):
 if __name__ == "__main__":
  app.secret_key = "170194"
  app.run(debug=False)
-
-with open('predictions.csv', 'w') as f:
-  f.write('Date,Predictions\n')
-
-for i in range(len(prediction)):
-  with open('predictions.csv', 'a') as f:
-    f.write(dates[i]+','+str(prediction[i])+"\n")
